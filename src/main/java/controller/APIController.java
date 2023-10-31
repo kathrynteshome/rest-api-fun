@@ -12,7 +12,9 @@ import java.util.List;
 public class APIController {
 
     @GetMapping
-    public List<Countries> findAll(){
-        return null;
+    public Countries findAll(){
+        return new Countries("USA", "DC", "99999999", "English", "USD", "999999");
+
     };
+
 }
